@@ -1,0 +1,116 @@
+
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #05023112;
+            color: #333;
+            width: 960px; /* Ancho fijo para evitar que sea responsiva */
+            margin: 0 auto; /* Centrar el contenido en la página */
+        }
+
+        header {
+            background-color: #3f32cc;
+            color: rgb(255, 255, 255);
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            /* Ruta de la imagen de taller mecánico */
+            background-image: url(img/istockphoto-1347150429-612x612.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: table;
+            width: 100%;
+            text-align: center;
+            color: rgb(245, 241, 241);
+    ;
+
+        }
+
+        .hero-text {
+            display: table-cell;
+            vertical-align: middle;
+            background-color: rgba(0, 0, 0, 0.6); /* oscurecer un poco más para que el texto resalte */
+            padding: 20px;
+        }
+
+        .hero-text h2 {
+            font-size: 3em;
+            margin: 0 0 10px 0; /* Espacio debajo del título */
+        }
+
+        .hero-text p {
+            font-size: 1.2em;
+            margin-bottom: 20px; /* Espacio debajo del párrafo */
+        }
+
+            .container {
+            padding: 20px;
+        }
+
+        .section {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            text-align: center;
+            color: #502c2c;
+        }
+
+        .services-list {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .services-list li {
+            display: inline-block;
+            width: 200px;
+            margin: 10px;
+            padding: 15px;
+            background-color: #ecf0f1;
+            border: 1px solid #bdc3c7;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+    
